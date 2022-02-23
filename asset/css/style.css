@@ -22,14 +22,17 @@ body{
 }
 
 .aside{
-    background-color: red;
+    background-color: black;
     position: relative;
     z-index: 1;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .aside-icon{
-    width: 24px;
+    width: 20px;
 }
 
 .logo-big{
@@ -37,7 +40,7 @@ body{
 }
 
 .aside-menu-top{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .aside-menu-top li{
@@ -54,7 +57,7 @@ body{
 }
 
 .via{
-    /*display:none;*/
+    display: none;
     white-space: nowrap;
 }
 
@@ -72,24 +75,36 @@ ul li span{
     padding: 8px;
 }
 
+.fa-arrow-down-long{
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
 .crea-playlist{
     display: flex;
     font-size: 1.4em;
     margin-left: 10px;
 }
 
-
-.color-grey{
+.profile{
+    border-top: 1px soldi black;
+    margin-top: 10px; 
     display: flex;
-    color: grey;
 }
+
+.icon-profilo{
+    background-color: grey;
+    border-radius: 50%;
+}
+
 
 /* ANCHOR main*/
 
 .main{
     background-color: #262e35;
     width: 95%;
-    /*overflow-y: auto;*/
+    overflow-y: auto;
 }
 
 /*.box{
@@ -116,6 +131,27 @@ ul li span{
     text-transform: capitalize;
     text-decoration: none;
 }
+
+.barra-nav{
+    display: inline;
+}
+
+.barra-nav li{
+    display: inline;
+    list-style: none;
+}
+
+.barra-nav ul li a{
+    display: inline;
+    text-decoration: none;
+    color: grey;
+}
+
+.barra-nav li a{
+    display: inline;
+}
+
+
 
 /* ANCHOR Web app bottom*/
 
