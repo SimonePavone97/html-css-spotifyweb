@@ -29,6 +29,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .aside-icon{
@@ -202,4 +203,41 @@ nav li a{
 .web-app-bottom{
     background-color: #282828;
     height: 100px;
+    display: flex;
 }
+
+.web-app-bottom-img{
+    display: flex;
+}
+
+.test3{
+    display: flex;
+    align-items: center;
+}
+
+.icon-music{
+    width: 40px;
+    height: 40px;
+}
+
+.brano-in-riproduzione{
+    display: flex;
+    flex-direction: column;
+}
+
+.brano-in-riproduzione h5{
+    color: white;
+    font-size: 0.9em;
+}
+
+.brano-in-riproduzione span{
+    color: grey;
+    font-size: 0.8em;
+}
+
+.icon-play{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+}
+
