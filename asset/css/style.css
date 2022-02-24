@@ -205,6 +205,7 @@ nav li a{
     height: 100px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .web-app-bottom-img{
@@ -249,6 +250,17 @@ nav li a{
     justify-content: center;
 }
 
-.centro{
+.centro i{
     color: white;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+.barra-grande{
+    background-color: red;
+    width: 20%;
+    height: 10px;
 }
