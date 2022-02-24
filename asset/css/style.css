@@ -150,26 +150,51 @@ nav li a{
 }
 
 .main-central{
+    width: 90%;
+    margin: 0 auto;
     margin-top: 20px;
 }
 
 .titolo-recenti h2{
     color: white;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#coloregrigio{
+    color: gray;
+    margin-bottom: 10px;
 }
 
 .sezione-album{
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
 
 .album-metal{
-    width: calc(100% / 2 - 15px);
+    width: calc(100% / 2);
+    padding-right: 10px;
+    text-align: center;
 }
+
+
 
 .img-size{
     width: 100%;
+}
+
+.sezione-album h4{
+    color: white;
+    margin-top: 5px;
+}
+
+.sezione-album p{
+    color: grey;
+    margin-top: 5px;
+}
+
+.stondare-img{
+    border-radius: 50%;
 }
 
 /* ANCHOR Web app bottom*/
